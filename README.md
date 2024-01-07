@@ -5,7 +5,12 @@ We are starting a sports analytics modeling company, and the first model we have
 ## Data Understanding
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+We scraped data from [baseballsavant](https://baseballsavant.mlb.com/), a website that collects MLB data from MLB.com's Statcast database, using Pybaseball, a python package that scrapes baseball data. This gave us a dataset of all the pitches thrown in the 2023 MLB season.
+>>>>>>> main
 ## Data Cleaning and Preproccesing
+
 ## Modeling & Evaluation
 =======
 =======
