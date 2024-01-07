@@ -4,9 +4,12 @@
 We are starting a sports analytics modeling company, and the first model we have created is an MLB pitch predictor, which will predict the type of pitch that will be thrown next during an at-bat. Our company believes in the growing influence of technology and data in sports decision-making, with AI at the forefront, and that emerging companies like ours will be able to compete in a market without dominant players in the private sector. We are beginning with a baseball model because of the tabular and static nature of the sport, with the goal of expanding our predictive-modeling capabilities to other sports as we continue to gain a foothold in the industry.
 ## Data Understanding
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Data Cleaning and Preproccesing
 ## Modeling & Evaluation
 =======
+=======
+>>>>>>> origin/pat
 ## Data Cleaning and Preproccessing
 ## Modeling & Evalution
 >>>>>>> c9cb5fe (Update README)
@@ -66,8 +69,13 @@ pip install pybaseball
 ├── LICENSE
 ├── README.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 =======
 ├── binary_class_training_eval_final.ipynb
 ```
 >>>>>>> c9cb5fe (Update README)
+=======
+├── binary_class_training_eval_final.ipynb
+```
+>>>>>>> origin/pat
