@@ -72,10 +72,5 @@ pip install pybaseball
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-
-```
-├── binary_class_training_eval_final.ipynb
-```
-
 ├── binary_class_training_eval_final.ipynb
 ```
