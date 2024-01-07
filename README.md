@@ -1,9 +1,9 @@
-# pitch_predictor
+# Pitch Predictor Model
 ![Alt text](images/floro_slider.gif)
 ## Intro & Business Context
 ## Data Understanding
 ## Data Cleaning and Preproccesing
-## Modeling & Evalution
+## Modeling & Evaluation
 ## Conclusion & Next Steps
 
 
