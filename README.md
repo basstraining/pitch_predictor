@@ -3,10 +3,8 @@
 ## Intro & Business Context
 ## Data Understanding
 ## Data Cleaning and Preproccesing
-## Modeling
-## Evaluation
+## Modeling & Evalution
 ## Conclusion & Next Steps
-
 
 
 
