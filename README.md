@@ -24,7 +24,7 @@ We generated a confusion matrix to display the results between our predictions.
 
 ![image](https://github.com/basstraining/pitch_predictor/blob/main/images/confusionmatrixMLP.png)
 
-Because we are unable to pull features from the neural network we will create another pipeline using a RandomForestClassifier and ran a GridSearchCV for hyperparamater tuning. This allowed us to see the Feature Importances:
+Because we are unable to pull features from the neural network we will create another pipeline using a RandomForestClassifier and ran a GridSearchCV for hyperparamater tuning. This allowed us to see the most important features for our model:
 
 ![image](https://github.com/basstraining/pitch_predictor/blob/main/images/feature_importance_screenshot.png)
 
