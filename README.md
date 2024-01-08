@@ -28,11 +28,6 @@ Because we are unable to pull features from the neural network we will create an
 
 ![image](https://github.com/basstraining/pitch_predictor/assets/109538271/97e76d9a-a84f-45e1-8f48-dee0399659de)
 
-
-
-## Data Cleaning and Preproccessing
-## Modeling & Evalution
-
 ## Conclusion & Next Steps
 ## Contributing 
 If you would like to contribute to the project please fork the repository. You should activate your python env with `conda` or `venv` using  >= python3.8 and install the python package `pybaseball` with `pip`
