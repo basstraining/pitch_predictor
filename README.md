@@ -10,7 +10,7 @@ Much of our data cleaning was done in the [nathan_cleaning notebook](https://git
 
 Once we had our [cleaned dataset](https://github.com/basstraining/pitch_predictor/blob/main/data/final_dataset_modeling.csv) with our new columns, we made the decision to convert our data to binary classes and this ended up making our dataset much more balanced for modeling, as our multiclass dataset with four different pitch types was quite imbalanced. This meant that our model would be predicting whether the pitch is a fastball (FB) or offspeed (OS).
 
-We then set the target variable (pitch type) and columns to include, initialized our OneHotEncoder, and performed a train-test split on our data. We also created a dummy model
+We then set the target variable as pitch type and columns to include as features, initialized our OneHotEncoder, and performed a train-test split on our data. We also created a dummy model
 the results of our final model to.
 
 Our final preprocessing step was creating a ColumnTransformer to encode all categorical columns before creating a pipeline The end result is the categorical columns are one-hot encoded, and the other columns are left as-is.
@@ -29,6 +29,7 @@ Because we are unable to pull features from the neural network we will create an
 ![image](https://github.com/basstraining/pitch_predictor/assets/109538271/97e76d9a-a84f-45e1-8f48-dee0399659de)
 
 ## Conclusion & Next Steps
+
 ## Contributing 
 If you would like to contribute to the project please fork the repository. You should activate your python env with `conda` or `venv` using  >= python3.8 and install the python package `pybaseball` with `pip`
 
