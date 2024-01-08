@@ -6,8 +6,17 @@ We are starting a sports analytics modeling company, and the first model we have
 We scraped data from [baseballsavant](https://baseballsavant.mlb.com/), a website that collects MLB data from MLB.com's Statcast database, using [Pybaseball](https://github.com/basstraining/pitch_predictor/tree/main/notebooks/pybaseball), a python package that scrapes baseball data. This gave us a dataset of all the pitches thrown in the 2023 MLB season.
 
 ## Data Cleaning and Preproccesing
+Much of our data cleaning was done in the [nathan_cleaning notebook](https://github.com/basstraining/pitch_predictor/blob/main/notebooks/nathan_cleaning.ipynb). Here, we cleaned our filtered data set of pitches from the pitchers in the top 15 percent of pitches thrown for the 2023 MLB season. We filtered out irrelevant columns, removed rows with null values, and used functions to create new columns to use as features in our model, such as large_score_dif to tell us whether the pitch occured while there was a large run differential at that point in the game, XBH to denote whether the batter had an extra-base hit against the pitcher in a previous at-bat during the game, and columns that gave us the zone, pitch type, and result of the three most recent pitches in the at-bat.
+
+Once we had our [cleaned dataset](https://github.com/basstraining/pitch_predictor/blob/main/data/final_dataset_modeling.csv) with our new columns, we made the decision to convert our data to binary classes and this ended up making our dataset much more balanced for modeling, as our multiclass dataset with four different pitch types was quite imbalanced. This meant that our model would be predicting whether the pitch is a fastball (FB) or offspeed (OS).
+
+We then set the target variable (pitch type) and columns to include, initialized our OneHotEncoder, and performed a train-test split on our data. We also created a dummy model
+the results of our final model to.
+
+Our final preprocessing step was creating a ColumnTransformer to encode all categorical columns before creating a pipeline The end result is the categorical columns are one-hot encoded, and the other columns are left as-is.
 
 ## Modeling & Evaluation
+
 
 ## Data Cleaning and Preproccessing
 ## Modeling & Evalution
