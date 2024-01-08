@@ -18,7 +18,7 @@ Our final preprocessing step was creating a ColumnTransformer to encode all cate
 ## Modeling & Evaluation
 First, created a pipeline for MLPClassifier, a neural network from sklearn. MLPClassifier (Multi-layer Perceptron classifier) is useful for classification tasks for data that contain nonlinear relationships. Then we used RandomizedSearchCV to cross validate (5 folds) and look for the best hyperparameters that we set in the param_distribution dictionary and get the best score.
 
-We generated a classification_report to look at accuracy of our pitch predicition, as accuracy makes the most sense to evaluate our model on in the context of trying to accurately identify pitches. The accuracy in our classification report was 0.60, meaning that the model correctly predicts the pitch type 60% of the time across both classes on the test data.
+We generated a classification_report to look at accuracy of our pitch prediction, as accuracy makes the most sense to evaluate our model on in the context of trying to accurately identify pitches. The accuracy in our classification report was 0.60, meaning that the model correctly predicts the pitch type 60% of the time across both classes on the test data.
 
 We generated a confusion matrix to display the results between our predictions.
 
