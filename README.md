@@ -22,11 +22,11 @@ We generated a classification_report to look at accuracy of our pitch predicitio
 
 We generated a confusion matrix to display the results between our predictions.
 
-![image](https://github.com/basstraining/pitch_predictor/assets/109538271/069cf275-6377-45cf-8462-bbd58d44fb42)
+![image](https://github.com/basstraining/pitch_predictor/blob/main/images/confusionmatrixMLP.png)
 
 Because we are unable to pull features from the neural network we will create another pipeline using a RandomForestClassifier and ran a GridSearchCV for hyperparamater tuning. This allowed us to see the Feature Importances:
 
-![image](https://github.com/basstraining/pitch_predictor/assets/109538271/97e76d9a-a84f-45e1-8f48-dee0399659de)
+![image](https://github.com/basstraining/pitch_predictor/blob/main/images/feature_importance_screenshot.png)
 
 ## Conclusion & Next Steps
 As previously mentioned accuracy is the metric we are evaluating on for this particular classification between FB and OS pitches. Our MLPClassifier will possibly perform better in a real world pitch sequence prediction model if deployed properly. With further tuning and tweaking, XGBoost could possible be another model to use for deployment. Analyzing a pitcher's tendencies and predicting the next pitch is quite a complex task. Further investigation and feature engineering could be explored to optimize these models for deployment in MLB games.
