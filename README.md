@@ -21,7 +21,13 @@ First, created a pipeline for MLPClassifier, a neural network from sklearn. MLPC
 We generated a classification_report to look at accuracy of our pitch predicition, as accuracy makes the most sense to evaluate our model on in the context of trying to accurately identify pitches. The accuracy in our classification report was 0.60, meaning that the model correctly predicts the pitch type 60% of the time across both classes ont the test data.
 
 We generated a confusion matrix to display the results between our predictions.
+
 ![image](https://github.com/basstraining/pitch_predictor/assets/109538271/069cf275-6377-45cf-8462-bbd58d44fb42)
+
+Because we are unable to pull features from the neural network we will create another pipeline using a RandomForestClassifier and ran a GridSearchCV for hyperparamater tuning. This allowed us to see the Feature Importances:
+
+![image](https://github.com/basstraining/pitch_predictor/assets/109538271/97e76d9a-a84f-45e1-8f48-dee0399659de)
+
 
 
 ## Data Cleaning and Preproccessing
