@@ -34,6 +34,8 @@ As previously mentioned accuracy is the metric we are evaluating on for this par
 ## Contributing 
 If you would like to contribute to the project please fork the repository. You should activate your python env with `conda` or `venv` using  >= python3.8 and install the python package `pybaseball` with `pip`
 
+Here is a link to the pybaseball package github repository: https://github.com/jldbc/pybaseball
+
 #### On Linux/Mac/Windows
 ```
 pip install pybaseball
