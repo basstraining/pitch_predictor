@@ -16,6 +16,12 @@ the results of our final model to.
 Our final preprocessing step was creating a ColumnTransformer to encode all categorical columns before creating a pipeline The end result is the categorical columns are one-hot encoded, and the other columns are left as-is.
 
 ## Modeling & Evaluation
+First, created a pipeline for MLPClassifier, a neural network from sklearn. MLPClassifier (Multi-layer Perceptron classifier) is useful for classification tasks for data that contain nonlinear relationships. Then we used RandomizedSearchCV to cross validate (5 folds) and look for the best hyperparameters that we set in the param_distribution dictionary and get the best score.
+
+We generated a classification_report to look at accuracy of our pitch predicition, as accuracy makes the most sense to evaluate our model on in the context of trying to accurately identify pitches. The accuracy in our classification report was 0.60, meaning that the model correctly predicts the pitch type 60% of the time across both classes ont the test data.
+
+We generated a confusion matrix to display the results between our predictions.
+![image](https://github.com/basstraining/pitch_predictor/assets/109538271/069cf275-6377-45cf-8462-bbd58d44fb42)
 
 
 ## Data Cleaning and Preproccessing
