@@ -29,6 +29,7 @@ Because we are unable to pull features from the neural network we will create an
 ![image](https://github.com/basstraining/pitch_predictor/assets/109538271/97e76d9a-a84f-45e1-8f48-dee0399659de)
 
 ## Conclusion & Next Steps
+As previously mentioned accuracy is the metric we are evaluating on for this particular classification between FB and OS pitches. Our MLPClassifier will possibly perform better in a real world pitch sequence prediction model if deployed properly. With further tuning and tweaking, XGBoost could possible be another model to use for deployment. Analyzing a pitcher's tendencies and predicting the next pitch is quite a complex task. Further investigation and feature engineering could be explored to optimize these models for deployment in MLB games.
 
 ## Contributing 
 If you would like to contribute to the project please fork the repository. You should activate your python env with `conda` or `venv` using  >= python3.8 and install the python package `pybaseball` with `pip`
